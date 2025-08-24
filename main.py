@@ -1,7 +1,8 @@
 from flask import Flask, render_template
+from flask_scss import Scss
 
 app = Flask(__name__)
-
+Scss(app)
 
 @app.route('/')
 def index():
