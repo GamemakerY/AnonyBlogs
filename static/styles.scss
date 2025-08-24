@@ -17,13 +17,13 @@ $font-code: 'Fira Code', monospace;
 
 body {
   @include body-font;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #121212;
+  color: #00ff00;
 }
 
 
 h1, h2, h3 {
-  font-family: $font-body;
+  font-family: $font-code;
   font-weight: 600;
 }
 
